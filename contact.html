@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Contact</title>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v21.0"></script>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="http://51.44.174.108" aria-label="Home">⌂ Home</a></li>
+          <li><a href="http://51.44.174.108/tweets.html" aria-label="Tweet">🕊 Tweet</a></li>
+          <li><a href="http://51.44.174.108/presentation.html" aria-label="Presentation">✏ Presentation</a></li>
+          <li><a href="http://51.44.174.108/contact.html" aria-label="Contact">✉ Contact</a></li>
+        </ul>
+      </nav>
+      <fb_share>
+        <div class="fb-share-button" data-href="http://51.44.174.108/share" data-layout="" data-size=""><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F51.44.174.108%2Fshare&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Partager</a></div>
+      </fb_share>
+      <x_share>
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </x_share>
+    </header>
+
+    <main>
+      <section class="container" id="contact">
+        <h2>Contact</h2>
+        <p>Send me a message to share your opinion</p>
+
+        <form action="https://formsubmit.co/this_is_not_my_mail@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New mail from your web site !!">
+          <input type="email" name="email" placeholder="Email Address" required>
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="text" name="message" placeholder="Put your message here" required>
+          <input type="hidden" name="_next" value="http://51.44.174.108/thankyou.html">
+          <button type="submit">Send</button>
+        </form>
+
+      </section>
+    </main>
+    <footer>
+      <p>
+        Made by Franck S for
+          <a href="https://apply.holbertonschool.com">
+          <img src="https://apply.holbertonschool.com/holberton-logo.png" width="80px">
+          </a>
+      </p>
+    </footer>
+  </body>
+</html>
